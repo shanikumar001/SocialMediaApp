@@ -255,6 +255,8 @@ body{
 }
 
 .ofBtn{
+    height: 20px;
+    width: 30px;
     position: absolute;
     inset: 0;
     left: 20px;
