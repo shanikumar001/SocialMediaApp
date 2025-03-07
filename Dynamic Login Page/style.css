@@ -1,0 +1,268 @@
+body{
+    /* position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #393939; 
+    /* background: #06066e; 
+    background: #6d6c03; 
+    background: #166403;
+    background: #610364;
+    background: #640330;
+    background: #641e03;
+    background: #035964;
+    background: #640303;
+    background: #480364; */
+    background: #393939;
+ 
+    height: 100vh;
+    width: 400px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.page{
+    /* border: 2px solid white;
+    height: 100vh;
+    width: 400px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    position: relative; */
+}
+.page1{
+   
+    top: 250px;
+    left: -7px;
+    height: 240px;
+    width: 350px;
+    background: linear-gradient(#838383 0%, #4e4e4e 10%, #343434 50%, #1e1e1e 100%);
+    border-radius: 15px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.shadow{
+    position: absolute;
+    top: 460px;
+    left: 1px;
+    background: linear-gradient(#464646,#343434, #232323, #000000);
+    height: 30px;
+    width: 390px;
+    border: 10px solid black;
+    margin-bottom: 250px;
+   border-radius: 20%;
+   z-index: -1;
+   filter: blur(30px);
+   
+}
+/* .shadow::before{
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 350px;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 50px;
+    z-index: -10;
+    filter: blur(50px);
+} */
+.box{
+    height: 50px;
+    width: 400px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+#inputBox{
+    margin-top: 15px;
+}
+.circle{
+    margin: 10px;
+    height: 40px;
+    width: 300px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerCircle{
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    height: 40px;
+    width: 300px;
+    background: linear-gradient(#838383 0%, #4e4e4e 10%, #343434 50%, #1e1e1e 100%);
+    border-radius: 25px;
+}
+
+/* #userName{
+    border-radius: 5px;
+    border: 10px solid transparent;
+}
+/* #password{
+    border-radius: 5px;
+    border: 10px solid transparent;
+} */ 
+
+.Login{
+    display: flex;
+    justify-content: center;
+}
+.login{
+    margin-top: 20px;
+    height: 20px;
+    width: 80px;
+    background: linear-gradient(#838383 0%, #4e4e4e 10%, #343434 50%, #1e1e1e 100%);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#loginButton{
+    color: rgb(38, 25, 25);
+    border: none;
+    height: 20px;
+    width: 80px;
+    background: linear-gradient(#838383 0%, #4e4e4e 10%, #343434 50%, #1e1e1e 100%);
+    border-radius: 5px;
+    filter: blur();
+}
+
+.Forgot{
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#forgot{
+    margin: 20px;
+    height: 20px;
+    width: 120px;
+}
+#forgotButton, #createButton{
+    color: rgb(32, 23, 23);
+    border: none;
+    height: 20px;
+    width: 120px;
+    background: linear-gradient(#838383 0%, #4e4e4e 10%, #343434 50%, #1e1e1e 100%);
+    border-radius: 5px;
+    filter: blur();
+    font-size: 12px;
+}
+
+#forgotButton:hover{
+    border: 2px solid rgb(35, 32, 32);
+    color: #d6d6d6;
+}
+#createButton:hover{
+    border: 2px solid rgb(35, 32, 32);
+    color: #d6d6d6;
+}
+#loginButton:hover{
+    border: 2px solid rgb(35, 32, 32);
+    color: #b5b5b5;
+}
+
+#userNameInput:hover{
+    border-radius: 5px;
+    border: 10px solid transparent;
+}
+
+#passwordInput:hover{
+    border-radius: 5px;
+    border: 10px solid transparent;
+}
+
+/* #inputs{
+    background: linear-gradient(#2503cd 0%, #0b0193 10%, #010158 50%, #050137 100%);
+} */
+.page1, #loginButton, #forgotButton, #createButton{
+   
+    background: linear-gradient(#838383 0%, #4e4e4e 10%, #343434 50%, #1e1e1e 100%);
+
+    /* background: linear-gradient(#2503cd 0%, #0b0193 10%, #010158 50%, #050137 100%);
+
+    background: linear-gradient(#bbd003 0%, #8e9803 10%, #515e01 50%, #2c3000 100%);
+
+    background: linear-gradient(#d003c6 0%, #980395 10%, #5e0137 50%, #2b0030 100%);
+
+    background: linear-gradient(#d0035c 0%, #98035f 10%, #550220 50%, #300016 100%);
+
+    background: linear-gradient(#d05c03 0%, #983a03 10%, #551e02 50%, #300d00 100%);
+
+    background: linear-gradient(#03aad0 0%, #037d98 10%, #024b55 50%, #002c30 100%);
+
+    background: linear-gradient(#d00303 0%, #980303 10%, #550202 50%, #300000 100%);
+
+    background: linear-gradient(#d00303 0%, #980303 10%, #550202 50%, #300000 100%);
+
+    background: linear-gradient(#7e03d0 0%, #700398 10%, #3f0255 50%, #230030 100%); */
+}
+
+
+.container{
+   
+    position: absolute;
+    inset: 0;
+    top: 40px;
+    left: 10px;
+    height: 500px;
+    width: 100px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.btnContainer{
+    display: none;
+}
+.btn{
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    border-radius: 50%;
+}
+#button1{
+    background: #393939;  
+}
+#button2{
+    background: #06066e;
+}
+#button3{
+    background: #6d6c03; 
+}
+#button4{
+    background: #610364;
+}
+#button5{
+    background: #640330;
+}
+#button6{
+    background: #641e03;
+}
+#button7{
+    background: #035964;
+}
+#button8{
+    background: #166403;
+}
+#button9{
+    background: #640303;
+}
+#button10{
+    background: #480364;
+}
+
+.ofBtn{
+    position: absolute;
+    inset: 0;
+    left: 20px;
+    top: 10px;
+}
+#off{
+    height: 20px;
+    width: 30px;
+    border-radius: 2px;
+    background-color: red;
+}
